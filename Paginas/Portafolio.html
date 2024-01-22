@@ -1,11 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio</title>+
+
+    <!-- libreria de iconos -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/Styles/stylePortafolio.css" />
 </head>
+
 <body>
-    
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#Mi" class="logo">Mi Portafolio</a>
+
+        <nav class="navbar">
+            <a href="#Mi">Sobre Mi</a>
+            <a href="#Puntos">Puntos Llamativos</a>
+            <a href="#Gustos">Gustos Por Los Autos</a>
+            <a href="#Tiempo">Tiempo Dedicado</a>
+
+        </nav>
+    </header>
+
+    <section class="MI" id="Mi">
+        <div class="MI-content">
+            <div class="personal-info">
+                <h2>Mi Nombre es:</h2>
+                <p>Brandon Mendoza</p>
+
+                <h2>Edad:</h2>
+                <p>17 años</p>
+
+                <h2>Carrera:</h2>
+                <p>Informatica</p>
+
+                <h2>Perfil</h2>
+                <p>Soy una persona responsable y con ganas de seguir aprendiendo. Me gusta aprender cosas nuevas y soy
+                    amante de la tecnología. Me considero una persona capaz de trabajar en equipo.</p>
+
+                <h2>Objetivo Personal</h2>
+                <p>Poner en práctica todos los conocimientos adquiridos durante mi formación escolar.</p>
+
+                <div class="social-media">
+                    <a
+                        href="https://www.canva.com/design/DAFdZOz0MHc/OUVh7G_9VahDhPOVqFmdwA/edit?utm_content=DAFdZOz0MHc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><i
+                            class='bx bxs-file-doc'></i></a>
+                    <a href="https://github.com/bmendoza2019349"><i class='bx bxl-github'></i></a>
+                    <a href="index.html"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="MI-img">
+                <img src="/img/programador.jpg" alt="">
+            </div>
+    </section>
+
+    <!--Sección de Proyectos-->
+    <section class="proyectos" id="proyectos">
+        <div>
+            <div class="proyectos-img">
+                <img src="/img/Programa1.jpg" alt="">
+            </div>
+
+            <div class="proyectos-content">
+                <h2 class="heading"><span>Programa Ventas</span></h2>
+                <p>En este proyecto realizamos un sistema en el cual se puede ir registrando los productos para
+                    aorganizarlos de una mejor manera, tambien podemos agregar empleados y podemos generar ventas, hay
+                    una interfaz para usuario en la que podemos realizar compras en linea.</p>
+            </div>
+        </div>
+        <div>
+            <div class="proyectos-img">
+                <img src="/img/programa2.jpg" alt="">
+            </div>
+
+            <div class="proyectos-content">
+                <h2 class="heading"><span>Clinica Pediatrica</span></h2>
+                <p>En este proyecto se trabajo y seguimos trabajando con unos compañeros el programa para una clinica
+                    pediatrica en ella podemos agendar una cita, se pueden agregar pacientes y tenemos un historial de
+                    citas con su respectivo paciente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Mis tecnologias Sección-->
+    <section class="tecnologias" id="tecnologias">
+        <div class="tecnologias-content">
+            <h2 class="heading"><span>Mis Tecnologias</span></h2>
+            <p>
+                <span>1. Java Standard Edition</span>
+                <span>2. Java Enterprise Edition</span>
+                <span>3. HTML</span>
+                <span>4. JavaScript</span>
+                <span>5. CSS</span>
+                <span>6. Bootstrap</span>
+                <span>7. GitHub</span>
+                <span>8. Google APIs</span>
+                <span>9. MySQL</span>
+            </p>
+        </div>
+        <div class="tecnologias-img">
+            <img src="/img/tecnologias.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+  
+        <form action="https://formsubmit.co/bmendoza-2019349@kinal.edu.gt" method="POST">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Affair">
+          </div>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Messaage" class="btn" onclick="enviarCorreo()">
+        </form>
+      </section>
+  
+      <!-- footer design -->
+      <footer class="footer">
+        <div class="footer-text">
+          <p>Copyright &copy; 2023 IN5BM Kinal todos los derechos reservados.</p>
+        </div>
+        <div class="footer-iconTop">
+          <a href="#Home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </footer>
+  
+      <!-- scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+  
+      <!-- typed js -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+      <!-- custom js -->
+      <script src="js/script.js"></script>
 </body>
+
 </html>
