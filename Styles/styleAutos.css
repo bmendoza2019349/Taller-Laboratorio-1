@@ -101,10 +101,7 @@ section {
     gap: 2rem;
 }
 
-.historia-content p {
-    font-size: 10rem;
-    color: #04173b;
-}
+
 
 .historia-container .historia-box {
     flex: 1 1 30rem;
@@ -121,6 +118,11 @@ section {
 .historia-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+}
+.historia-box h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    color: #fbb304;
 }
 
 /*CSS DE LA SECCION PUNTOS LLAMATIVOS*/
@@ -191,11 +193,6 @@ section {
     gap: 2rem;
 }
 
-.gustoporcarros-content p {
-    font-size: 20rem;
-    color: #04173b;
-}
-
 .gustoporcarros-container .gustoporcarros-box {
     flex: 1 1 30rem;
     background: var(--second-bg-color);
@@ -218,3 +215,55 @@ section {
     margin: 1rem 0 3rem;
     color: #fbb304;
 }
+
+/*css tiempo dedicado */
+.tiempodedicado {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tiempodedicado-img img {
+    width: 25vw;
+}
+
+.tiempodedicado-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.tiempodedicado-container .tiempodedicado-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.tiempodedicado-box h2 {
+    font-size: 3rem;
+    color: #04173b;
+}
+.tiempodedicado-box h3 {
+    font-size: 2.5rem;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
