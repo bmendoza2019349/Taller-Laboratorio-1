@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --bg-color:#04173b;
+    --second-bg-color: #323946;
+    --text-color: #fbb304;
+    --text-color2: #ffffff;
+    --main-color: rgb(255, 102, 0);
+
+}
+
+body {
+    background: #842a4a;
+    color: #ffffff;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2)
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color2);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover ,
+.navbar a.active{
+    color: var(--main-color)
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    main-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.historia-img img {
+    width: 40vw;
+}
+
+.historia-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.historia-content p {
+    font-size: 10rem;
+    color: #04173b;
+}
+
+.historia-container .historia-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.historia-box h2 {
+    font-size: 3rem;
+}
+.historia-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/*CSS DE LA SECCION PUNTOS LLAMATIVOS*/
+.puntosLlamativos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.puntosLlamativos-img img {
+    width: 30vw;
+}
+
+.puntosLlamativos-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.puntosLlamativos-box p {
+    font-size: 6rem; 
+    margin: 1rem 0 3rem;
+}
+
+.puntosLlamativos-container .puntosLlamativos-box {
+    flex: 1 1 40rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.puntosLlamativos-box h2 {
+    font-size: 3rem;
+}
+.puntosLlamativos-box h3 {
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem;
+    color: #fbb304;
+}
+
+.puntosLlamativos-box h1 {
+    color: #04173b;
+    font-size: 2.4rem;
+}
+
+
+/*CSS gusto por los autos */
+
+.gustoporcarros {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.gustoporcarros-img img {
+    width: 30vw;
+}
+
+.gustoporcarros-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gustoporcarros-content p {
+    font-size: 20rem;
+    color: #04173b;
+}
+
+.gustoporcarros-container .gustoporcarros-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.gustoporcarros-box h2 {
+    font-size: 3rem;
+}
+.gustoporcarros-box h1 {
+    font-size: 2.6rem;
+    color: #04173b;
+    
+}
+.gustoporcarros-box h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    color: #fbb304;
+}
