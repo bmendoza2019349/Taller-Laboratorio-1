@@ -1,80 +1,117 @@
-nav {
-    background-color: #04173b;
-}
-
-nav ul {
-    list-style-type: none;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav ul li {
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    display: block;
-    padding: 10px;
+    box-sizing: border-box;
     text-decoration: none;
-    color: #333;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
-nav ul li a:hover {
-    background-color: #eee;
+:root {
+    --bg-color: #04173b;
+    --second-bg-color: #323946;
+    --text-color: #fbb304;
+    --text-color2: #ffffff;
+    --main-color: rgb(255, 102, 0);
+
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+body {
+    background-image: url('/img/128120_7f3b9fbf981448809326f69585851cb9~mv2.webp');
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    margin-right: 2rem;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 2rem;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--text-color2);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
+    background: var(--bg-color);
 }
 
-.footer-content {
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-buttons {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
+    justify-content: center;
 }
 
-.footer-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.footer-section h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.footer-section a {
+.footer-button {
+    background-color: #007bff;
     color: #fff;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
-
-.footer-section p {
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.donate-button {
-    background-color: #ff6347;
-    color: #fff;
-    border: none;
     padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
-.donate-button:hover {
-    background-color: #e6513b;
+.footer-button:hover {
+    background-color: #0056b3;
 }
+
+
+
