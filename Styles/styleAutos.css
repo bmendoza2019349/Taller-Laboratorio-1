@@ -267,3 +267,21 @@ section {
     font-size: 1.6rem;
 }
 
+.footer-buttons {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .footer-button {
+    background-color: #007bff;
+    color: #fff; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border: none; 
+    border-radius: 5px; 
+  }
+  
+  .footer-button:hover {
+    background-color: #0056b3;
+  }
+

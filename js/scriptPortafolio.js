@@ -1,4 +1,5 @@
 function enviarCorreo() {
+    alert("Se envio el correo");
     var nombre = document.getElementById("nombre").value;
     var email = document.getElementById("email").value;
     var mensaje = document.getElementById("mensaje").value;
@@ -8,5 +9,9 @@ function enviarCorreo() {
              + "&body=" + encodeURIComponent("Nombre: " + nombre + "\n\nEmail: " + email + "\n\nMensaje: " + mensaje);
     
     window.location.href = link;
-    alert("Se envio el correo");
+    
 }
+
+function irAPagina(pagina) {
+    window.location.href = pagina;
+  }

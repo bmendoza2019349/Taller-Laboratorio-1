@@ -110,29 +110,37 @@
     </section>
 
     <!-- contact section design -->
+
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-  
-        <form action="https://formsubmit.co/bmendoza-2019349@kinal.edu.gt" method="POST">
-          <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
-          </div>
-          <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Affair">
-          </div>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-          <input type="submit" value="Send Messaage" class="btn" onclick="enviarCorreo()">
-        </form>
-      </section>
+        <center>
+            <form action="https://formsubmit.co/bmendoza-2019349@kinal.edu.gt" method="POST">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="text" placeholder="Affair" required>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <div class="bontonmensaje">
+                    <button class="contact-button" onclick="enviarCorreo()">Enviar Mensaje</button>
+                </div>
+            </form>
+
+        </center>
+    </section>
 
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 IN5BM Kinal todos los derechos reservados.</p>
+            <p>Copyright &copy; 2024 IN6BM Brandon Steev Mendoza Peres.</p>
         </div>
-
+        <div class="footer-buttons">
+            <button class="footer-button" onclick="irAPagina('')">Principal</button>
+            <button class="footer-button" onclick="irAPagina('/Paginas/Kinal.html')">Kinal</button>
+        </div>
     </footer>
 
     <!-- scroll reveal -->
