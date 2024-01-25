@@ -97,7 +97,6 @@ section {
 .MI-content {
     display: flex;
     justify-content: space-between;
-    /* Ajuste para separar el contenido y la imagen */
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 2rem;
@@ -105,7 +104,6 @@ section {
 
 .MI-content .personal-info {
     max-width: 500px;
-    /* Ajuste para limitar el ancho del bloque de información personal */
 }
 
 .MI-content h2 {
@@ -246,7 +244,6 @@ section {
 
 .contact {
     margin: 0 auto;
-    /* Establece un margen automático a izquierda y derecha */
     text-align: center;
 }
 
@@ -287,15 +284,15 @@ section {
     justify-content: center;
 }
 .contact-button {
-    background-color: #007bff; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    margin: 0 10px; /* Márgenes entre los botones */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    background-color: #007bff;
+    color: #fff; 
+    padding: 10px 20px; 
+    margin: 0 10px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
   }
   
   .contact-button:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+    background-color: #0056b3; 
   }
