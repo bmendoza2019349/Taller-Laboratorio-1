@@ -103,7 +103,8 @@
     <center>
       <div id="ventanaBasicos" class="ventana">
         <div class="contenidoVentana">
-          <span class="cerrar" onclick="cerrarventanaBasicos()">&times;</span>
+          <button class="cerrar" onclick="cerrarventanaBasicos()"><img class="icon"
+              src="/Assets/resources/img/cerrar.png" alt=""></button>
           <p><img src="/Assets/resources/img/basic (1).png" alt="">
             <img src="/Assets/resources/img/basic (2).png" alt="">
             <img src="/Assets/resources/img/basic (3).png" alt="">
@@ -116,40 +117,62 @@
 
       <div id="ventanaDiver" class="ventana">
         <div class="contenidoVentana">
-          <span class="cerrar" onclick="cerrarventanaDiver()">&times;</span>
+          <button class="cerrar" onclick="cerrarventanaDiver()"><img class="icon" src="/Assets/resources/img/cerrar.png"
+              alt=""></button>
           <p><img src="/Assets/resources/img/diver (1).png" alt="">
             <img src="/Assets/resources/img/diver (2).png" alt="">
             <img src="/Assets/resources/img/diver (3).png" alt="">
             <img src="/Assets/resources/img/diver (4).png" alt="">
             <img src="/Assets/resources/img/diver (5).png" alt="">
             <img src="/Assets/resources/img/diver (6).png" alt="">
-            <img src="/Assets/resources/img/diver (7).png" alt=""></p>
+            <img src="/Assets/resources/img/diver (7).png" alt="">
+          </p>
         </div>
       </div>
 
       <div id="ventanaTecnica" class="ventana">
         <div class="contenidoVentana">
-          <span class="cerrar" onclick="cerrarventanaTecnica()">&times;</span>
+          <button class="cerrar" onclick="cerrarventanaTecnica()"><img class="icon"
+              src="/Assets/resources/img/cerrar.png" alt=""></button>
           <p><img src="/Assets/resources/img/et (1).png" alt="">
             <img src="/Assets/resources/img/et (2).png" alt="">
             <img src="/Assets/resources/img/et (3).png" alt="">
             <img src="/Assets/resources/img/et (4).png" alt="">
             <img src="/Assets/resources/img/et (5).png" alt="">
-            <img src="/Assets/resources/img/et (6).png" alt=""></p>
+            <img src="/Assets/resources/img/et (6).png" alt="">
+          </p>
         </div>
       </div>
 
       <div id="ventanaTecno" class="ventana">
         <div class="contenidoVentana">
-          <span class="cerrar" onclick="cerrarventanaTecno()">&times;</span>
-          <p>PERITOS TÉCNICOS
-            - Informática
-            - Mecánica Automotriz
-            - Electricidad Industrial
-            - Dibujo Técnico de Ingeniería y Arquitectura
-            - Electrónica
-            - Industrial
-            - Computación</p>
+          <button class="cerrar" onclick="cerrarventanaTecno()"><img class="icon" src="/Assets/resources/img/cerrar.png"
+              alt=""></button>
+          <p><img src="/Assets/resources/img/tic (1).png" alt="">
+            <img src="/Assets/resources/img/tic (2).png" alt="">
+            <img src="/Assets/resources/img/tic (3).png" alt="">
+            <img src="/Assets/resources/img/tic (4).png" alt="">
+            <img src="/Assets/resources/img/tic (5).png" alt="">
+          </p>
+          <section class="contact" id="contact">
+            <h2 class="heading">Contactanos</h2>
+            <center>
+              <form action="" method="POST">
+                <div class="input-box">
+                  <input type="text" placeholder="Nombre Completo" required>
+                  <input type="email" placeholder="Correo" required>
+                </div>
+                <div class="input-box">
+                  <input type="number" placeholder="Telefono" required>
+                  <input type="text" placeholder="Asunto" required>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Su mensaje" required></textarea>
+                <div class="bontonmensaje">
+                  <button class="contact-button" onclick="enviarCorreo()">Enviar Mensaje</button>
+                </div>
+              </form>
+            </center>
+          </section>
         </div>
       </div>
     </center>
@@ -161,8 +184,8 @@
       <!-- Ventanas Externas  -->
       <div id="ventanaTrabajos" class="ventana">
         <div class="contenidoVentana">
-          <button class="cerrar" onclick="cerrarventanaTrabajos()"><img class="icon" src="/Assets/resources/img/cerrar.png"
-              alt=""></button>
+          <button class="cerrar" onclick="cerrarventanaTrabajos()"><img class="icon"
+              src="/Assets/resources/img/cerrar.png" alt=""></button>
           <p>
             <img src="/Assets/resources/img/trabajo1.png" alt="">
             <img src="/Assets/resources/img/trabajo2.png" alt="">
@@ -175,8 +198,8 @@
 
       <div id="ventanaSponsors" class="ventana">
         <div class="contenidoVentana">
-          <button class="cerrar" onclick="cerrarventanaSponsors()"><img class="icon" src="/Assets/resources/img/cerrar.png"
-              alt=""></button>
+          <button class="cerrar" onclick="cerrarventanaSponsors()"><img class="icon"
+              src="/Assets/resources/img/cerrar.png" alt=""></button>
           <p><img src="/Assets/resources/img/sp1.png" alt="">
             <img src="/Assets/resources/img/sp2.png" alt="">
             <img src="/Assets/resources/img/sp3.png" alt="">
@@ -186,8 +209,8 @@
 
       <div id="ventanaFundacion" class="ventana">
         <div class="contenidoVentana">
-          <button class="cerrar" onclick="cerrarventanaFundacion()"><img class="icon" src="/Assets/resources/img/cerrar.png"
-              alt=""></button>
+          <button class="cerrar" onclick="cerrarventanaFundacion()"><img class="icon"
+              src="/Assets/resources/img/cerrar.png" alt=""></button>
           <p>
             <img src="/Assets/resources/img/funda1.png" alt="">
             <img src="/Assets/resources/img/funda2.png" alt="">
@@ -200,15 +223,16 @@
 
       <div id="ventanaPatronato" class="ventana">
         <div class="contenidoVentana">
-          <button class="cerrar" onclick="cerrarventanaPatronato()"><img class="icon" src="/Assets/resources/img/cerrar.png"
-              alt=""></button>
+          <button class="cerrar" onclick="cerrarventanaPatronato()"><img class="icon"
+              src="/Assets/resources/img/cerrar.png" alt=""></button>
           <p><img src="/img/patronato2.png" alt=""></p>
         </div>
       </div>
 
       <div id="ventanaPress" class="ventana">
         <div class="contenidoVentana">
-          <button class="cerrar" onclick="cerrarventanaPress()"><img class="icon" src="/Assets/resources/img/cerrar.png" alt=""></button>
+          <button class="cerrar" onclick="cerrarventanaPress()"><img class="icon" src="/Assets/resources/img/cerrar.png"
+              alt=""></button>
           <p><img src="/Assets/resources/img/PRESS1.png" alt="">
             <img src="/Assets/resources/img/PRESS2.png" alt="">
             <img src="/Assets/resources/img/PRESS3.png" alt="">
@@ -225,7 +249,8 @@
 
       <div id="ventanaBlog" class="ventana">
         <div class="contenidoVentana">
-          <button class="cerrar" onclick="cerrarventanaBlog()"><img class="icon" src="/Assets/resources/img/cerrar.png" alt=""></button>
+          <button class="cerrar" onclick="cerrarventanaBlog()"><img class="icon" src="/Assets/resources/img/cerrar.png"
+              alt=""></button>
           <p>
             <img src="/Assets/resources/img/blog1.png" alt="">
             <img src="/Assets/resources/img/blog2.png" alt="">

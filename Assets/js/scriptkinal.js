@@ -98,3 +98,18 @@ function cerrarventanaBlog() {
 function irAPagina(pagina) {
     window.location.href = pagina;
 }
+
+function enviarCorreo() {
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    var mensaje = document.getElementById("mensaje").value;
+
+    // Verificar si los campos están llenos antes de enviar el correo
+    if (nombre && email && mensaje) {
+        // Mostrar la alerta solo si se envió el correo
+        alert("Se envió el correo");
+    } else {
+        // Mostrar una alerta indicando que los campos deben estar llenos
+        alert("Por favor, completa todos los campos antes de enviar el correo");
+    }
+}
