@@ -317,20 +317,3 @@ html {
     width: 50%;
 }
 
-/*Boton flotante css*/
-.boton-donar {
-    position: fixed;
-    right: 10px; /* Ajusta la posición derecha según tus necesidades */
-    bottom: 75px; /* Ajusta la posición inferior según tus necesidades */
-    background-color: #fafafa; /* Color de fondo del botón */
-    color: #000000; /* Color del texto del botón */
-    padding: 20px 30px; /* Ajusta el relleno según tus necesidades */
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
-  }
-  
-  /* Estilos adicionales (opcional) */
-  .boton-donar:hover {
-    background-color: rgb(255, 102, 0); /* Cambia el color al pasar el ratón sobre el botón */
-  }
