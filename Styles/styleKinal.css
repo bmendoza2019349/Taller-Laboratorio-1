@@ -150,13 +150,14 @@ html {
     background-color: #14233c;
     border-radius: 5px;
     width: auto;
-    max-width: 80%;
+    max-width: 95%;
     max-height: 80vh;
     margin: 10% auto;
     padding: 20px;
     position: relative;
     box-sizing: border-box;
     overflow-y: auto;
+    display: flexbox;
 }
 
 .cerrar {
