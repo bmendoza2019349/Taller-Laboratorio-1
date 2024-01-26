@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +25,8 @@ body {
     background-size: cover;
     color: #ffffff;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -67,6 +70,19 @@ body {
     text-decoration: none;
     transition: .5s;
     background-color: #14233c;
+}
+
+.navbar a {
+    font-size: 2rem;
+    color: var(--text-color2);
+    text-decoration: none;
+    transition: .5s;
+    background-color: #14233c;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
 }
 
 .navbar button:hover,
@@ -127,7 +143,7 @@ html {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    overflow: auto; 
+    overflow: auto;
 }
 
 .contenidoVentana {
@@ -135,30 +151,35 @@ html {
     border-radius: 5px;
     width: auto;
     max-width: 80%;
-    max-height: 80vh; 
+    max-height: 80vh;
     margin: 10% auto;
     padding: 20px;
     position: relative;
     box-sizing: border-box;
-    overflow-y: auto; 
+    overflow-y: auto;
 }
 
 .cerrar {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 2px;
+    right: 2px;
     font-size: 20px;
     cursor: pointer;
 }
 
+.icon {
+    width: 30px;
+}
+
 .educacion {
-    background-color:  #fff;
+    background-color: #fff;
     margin-top: 5rem;
 }
 
 .educacion h2 {
     margin-bottom: 5rem;
 }
+
 .educacion-container {
     display: flex;
     justify-content: center;
@@ -180,15 +201,15 @@ html {
 
 .educacion-container .educacion-box:hover {
     border-color: var(--main-color);
-    transform:  scale(1.02);
+    transform: scale(1.02);
     transition: .5s ease;
 }
 
-.educacion-box2{
+.educacion-box2 {
     margin-top: 3rem;
 }
 
-.educacion-box{
+.educacion-box {
     margin-top: 3rem;
 }
 
@@ -200,6 +221,7 @@ html {
 .educacion-box h3 {
     font-size: 2.6rem;
 }
+
 .educacion-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
@@ -208,8 +230,8 @@ html {
 
 .educacion .educacion-box .btn {
     color: aqua;
-    background-color: #14233c; 
-    padding: 0.5rem 1rem; 
+    background-color: #14233c;
+    padding: 0.5rem 1rem;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -224,4 +246,91 @@ html {
     width: 100%;
 }
 
+/*Css seccion de quienes somos*/
+.quienesomos h2 {
+    margin-bottom: 5rem;
+}
 
+.quienesomos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.quienesomos-container .quienesomos-box {
+    flex: 1 1 30rem;
+    height: 45rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.quienesomos-container .quienesomos-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+    transition: .5s ease;
+}
+
+.quienesomos-box {
+    margin-top: 3rem;
+}
+
+.quienesomos-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.quienesomos-box h3 {
+    font-size: 2.6rem;
+}
+
+.quienesomos-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    color: #14233c;
+}
+
+.quienesomos .quienesomos-box .btn {
+    color: aqua;
+    background-color: #14233c;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quienesomos .quienesomos-box .btn:hover {
+    background-color: #0a1526;
+}
+
+.quienesomos-box img {
+    width: 100%;
+}
+
+.quienesomos-box .press2 img {
+    width: 50%;
+}
+
+/*Boton flotante css*/
+.boton-donar {
+    position: fixed;
+    right: 10px; /* Ajusta la posición derecha según tus necesidades */
+    bottom: 75px; /* Ajusta la posición inferior según tus necesidades */
+    background-color: #fafafa; /* Color de fondo del botón */
+    color: #000000; /* Color del texto del botón */
+    padding: 20px 30px; /* Ajusta el relleno según tus necesidades */
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+  }
+  
+  /* Estilos adicionales (opcional) */
+  .boton-donar:hover {
+    background-color: rgb(255, 102, 0); /* Cambia el color al pasar el ratón sobre el botón */
+  }

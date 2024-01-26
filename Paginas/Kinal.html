@@ -13,13 +13,15 @@
     <a href="#" class="logo"><img src="/img/Captura de pantalla 2024-01-25 111349.png" alt=""></a>
     <nav class="navbar">
       <ul>
-        <li><button href="#inicio">INICIO</button></li>
-        <li><button href="#quienes-somos">QUIÉNES SOMOS</button></li>
-        <li><button href="#educacion">EDUCACIÓN</button></li>
+        <li><a href="#inicio">INICIO</a></li>
+        <li><a href="#quienesomos">QUIÉNES SOMOS</a></li>
+        <li><a href="#educacion">EDUCACIÓN</a></li>
         <li><button onclick="ventanaSponsors()">SPONSORS</button></li>
         <li><button onclick="ventanaTrabajos()">TRABAJOS</button></li>
         <li><button onclick="ventanaBlog()">BLOG</button></li>
-        <li><a href="#industrial"><img src="/img/Captura de pantalla 2024-01-25 115754.png" alt=""></a></li>
+        <li><a href="https://link.ebi.com.gt/EBL107353eo4368asf2g/1621282737059942b/1634135282dc79e2f">
+          <img src="/img/Captura de pantalla 2024-01-25 115754.png" alt="">
+        </a></li>
       </ul>
     </nav>
   </header>
@@ -35,6 +37,32 @@
 
       </div>
     </center>
+  </section>
+
+  <section class="quienesomos" id="quienesomos">
+    <div class="quienesomos-container">
+      <div class="quienesomos-box">
+        <button onclick="ventanaBasicos()" class="btn">
+          <h3>Fundación</h3>
+          <img src="/img/fundacion.png" alt="">
+        </button>
+      </div>
+
+      <div class="quienesomos-box">
+        <button onclick="ventanaBasicos()" class="btn">
+          <h3>Patronato</h3>
+          <img src="/img/patronato.jpg" alt="">
+        </button>
+      </div>
+
+      <div class="quienesomos-box">
+        <button onclick="ventanaBasicos()" class="btn">
+          <h3>Press Kit</h3>
+          <img src="/img/presskit.png" alt="">
+        </button>
+      </div>
+
+    </div>
   </section>
 
   <section class="educacion" id="educacion">
@@ -135,7 +163,8 @@
     <!-- Ventanas Externas  -->
     <div id="ventanaTrabajos" class="ventana">
       <div class="contenidoVentana">
-        <span class="cerrar" onclick="cerrarventanaTrabajos()">&times;</span>
+        <button class="cerrar" onclick="cerrarventanaTrabajos()"><img class="icon" src="/img/cerrar.png"
+            alt=""></button>
         <p>
           <img src="/img/trabajo1.png" alt="">
           <img src="/img/trabajo2.png" alt="">
@@ -148,35 +177,41 @@
 
     <div id="ventanaSponsors" class="ventana">
       <div class="contenidoVentana">
-        <span class="cerrar" onclick="cerrarventanaSponsors()">&times;</span>
-        <p>¡Aquí va tu información!</p>
+        <button class="cerrar" onclick="cerrarventanaSponsors()"><img class="icon" src="/img/cerrar.png"
+            alt=""></button>
+        <p><img src="/img/sp1.png" alt="">
+          <img src="/img/sp2.png" alt="">
+          <img src="/img/sp3.png" alt="">
+        </p>
       </div>
     </div>
 
     <div id="ventanaFundacion" class="ventana">
       <div class="contenidoVentana">
-        <span class="cerrar" onclick="cerrarventanaFundacion()">&times;</span>
+        <button class="cerrar" onclick="cerrarventanaFundacion()"><img class="icon" src="/img/cerrar.png"
+            alt=""></button>
         <p>¡Aquí va tu información!</p>
       </div>
     </div>
 
     <div id="ventanaPatronato" class="ventana">
       <div class="contenidoVentana">
-        <span class="cerrar" onclick="cerrarventanaPatronato()">&times;</span>
+        <button class="cerrar" onclick="cerrarventanaPatronato()"><img class="icon" src="/img/cerrar.png"
+            alt=""></button>
         <p>¡Aquí va tu información!</p>
       </div>
     </div>
 
     <div id="ventanaPress" class="ventana">
       <div class="contenidoVentana">
-        <span class="cerrar" onclick="cerrarventanaPress()">&times;</span>
+        <button class="cerrar" onclick="cerrarventanaPress()"><img class="icon" src="/img/cerrar.png" alt=""></button>
         <p>¡Aquí va tu información!</p>
       </div>
     </div>
 
     <div id="ventanaBlog" class="ventana">
       <div class="contenidoVentana">
-        <span class="cerrar" onclick="cerrarventanaBlog()">&times;</span>
+        <button class="cerrar" onclick="cerrarventanaBlog()"><img class="icon" src="/img/cerrar.png" alt=""></button>
         <p>
           <img src="/img/blog1.png" alt="">
           <img src="/img/blog2.png" alt="">
@@ -191,6 +226,7 @@
     </div>
   </section>
 
+  
   <!-- footer design -->
   <footer class="footer">
     <div class="footer-text">
