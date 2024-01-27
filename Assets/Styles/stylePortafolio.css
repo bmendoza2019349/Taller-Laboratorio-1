@@ -240,11 +240,13 @@ section {
 /*CSS DE EL FORMULARIO CONTACTO*/
 .contact h2 {
     margin-bottom: 3rem;
+    
 }
 
 .contact {
     margin: 0 auto;
     text-align: center;
+    background-color: #323946;
 }
 
 .contact form {
@@ -266,7 +268,7 @@ section {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: #842a4a;
     border-radius: .8rem;
     margin: .7rem 0;
 }

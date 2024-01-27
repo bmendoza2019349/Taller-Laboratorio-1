@@ -24,7 +24,8 @@ body {
     background-image: url('/Assets/resources/img/128120_7f3b9fbf981448809326f69585851cb9~mv2.webp');
     background-size: cover;
     color: #ffffff;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -97,7 +98,7 @@ html {
 }
 
 .multimedia {
-    margin-top: 6rem;
+    margin-top: 15rem;
 }
 
 .multimedia h2 {
@@ -109,7 +110,7 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    padding: 2rem 4%;
     background: var(--bg-color);
 }
 
@@ -174,7 +175,7 @@ html {
 
 .educacion {
     background-color: #fff;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .educacion h2 {
@@ -378,17 +379,34 @@ html {
     background-color: #0056b3; 
   }
 
-  .container-footer1,
+ .container-footer1,
 .container-footer2 {
-  flex: 1;
+  display: flex;
+  flex: 5;
 }
 
 .container-footer1 {
   position: relative;
 }
 
-.container-footer2 {
+.footer-contact a{
+    color: #fff;
+    font-size: 20px;
+}
 
+.container-footer2 {
+  position: absolute;
   top: 0;
   right: 0;
 }
+
+.footer-text2 img {
+  width: 250px;
+}
+
+.footer-direccion pre {
+  line-height: 1.9em;
+  text-align: right;
+  font-size: 15px;
+}
+
